@@ -33,19 +33,15 @@ const Index = () => {
                     {/** BLOCO DE SAUDAÇÃO */}
 
                     {/** BLOCO DE FORMULÁRIO */}
-         
-                    <div className='lg:w-1/2 md:w-2/3 mx-auto'>
-                        <div className='flex -m-2'>
-                            <div className='p-2 w-5/6 xl:w-3/4 lg:w-2/3 md:w-3/5 mx-auto'>
-                                <div className='w-5/6 mx-auto text-center'>
-                                    <Link href='/pesquisa'>
-                                        <a className='w-full bg-blue-400 hover:shadow font-bold mb-4 py-3 px-6 rounded-lg shadow-lg'>
-                                            Dar opinião ou sugestão
-                                        </a>
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
+
+                    <div className='lg:w-1/2 md:w-2/3 mx-auto text-center'>
+                        <Link href='/pesquisa'>
+                        <button
+                            style={{ maxWidth: '240px' }}
+                            className='w-full bg-blue-400 hover:shadow font-bold mb-4 py-3 px-6 rounded-lg shadow-lg text-center'> 
+                            Dar opinião ou sugestão 
+                        </button>
+                        </Link>
                     </div>
                     
                     {/** BLOCO DE FORMULÁRIO */}
