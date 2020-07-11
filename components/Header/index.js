@@ -1,6 +1,5 @@
 import React from 'react'
 import Link from 'next/link'
-//import styles from './styles.module.css'
 
 const Header = () => {
     return(
@@ -8,7 +7,7 @@ const Header = () => {
             <div className='bg-gray-300 p-4 shadow-md z-50'>
                 <div className='container mx-auto'>
                     <Link href='/'>
-                        <img className='mx-auto cursor-pointer' src='/logo_palpitebox.png' alt='Palpitebox' />
+                        <img className='mx-auto cursor-pointer' src='/logo-nosdiga.png' alt='Nos Conte' />
                     </Link>
                 </div>
             </div>

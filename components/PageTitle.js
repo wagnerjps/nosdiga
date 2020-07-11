@@ -4,8 +4,10 @@ import Head from 'next/head'
 const PageTitle = ({ title }) => {
     return(
         <Head>
-            <title>PalpiteBox - { title }</title>
+
+            <title>Nos conte - { title }</title>
             <link rel='shortcut icon' href='/w.ico' ></link>
+        
         </Head>
     )
 }

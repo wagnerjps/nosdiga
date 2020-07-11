@@ -62,7 +62,7 @@ const Pesquisa = () => {
         <React.Fragment>
             {/* BLOCO INSPIRADO EM MERTJF */}
             <div className='text-gray-700 body-font relative'>
-                <PageTitle title='Teste' />
+                <PageTitle title='Pesquisa' />
                 <div className='container px-5 py-4 mx-auto'>
                     {/** BLOCO DE SAUDAÇÃO */}
                     <div className='flex flex-col text-center w-full mb-12'>
@@ -74,14 +74,13 @@ const Pesquisa = () => {
                         <p className='lg:w-2/3 mx-auto leading-relaxed text-base'>
                             <font style={{  verticalAlign: 'inherit' }}>
                                 <font style={{  verticalAlign: 'inherit' }}>
-                                    <p>O restaurante X sempre busca atender melhor seus clientes.</p>
+                                    <p>O nosso estabelecimento esta sempre busca atender melhor nossos clientes.</p>
                                     <p>Por isso, estamos sempre abertos a ouvir a sua opinião.</p>
                                 </font>
                             </font>
                         </p>
                     </div>
                     {/** BLOCO DE SAUDAÇÃO */}
-
                     {/** BLOCO DE FORMULÁRIO */
                     !sucess &&
                     <div className='lg:w-1/2 md:w-2/3 mx-auto'>
@@ -99,8 +98,6 @@ const Pesquisa = () => {
                                     })}
                                 </div>
                                 }
-                                
-                                
                                 <label className='font-bold'>Nome:</label>
                                 <input 
                                     type='text' 
