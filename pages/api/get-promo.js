@@ -12,11 +12,11 @@ export default async(req, res) => {
         await doc.loadInfo()
     
         const sheetConf = doc.sheetsByIndex[2]
-        await sheetConf.loadCells('A2:B2')
+        await sheetConf.loadCells('A3:B3')
     
-        const mostraPromocaoCell = sheetConf.getCell(1, 0)
+        const mostraPromocaoCell = sheetConf.getCell(2, 0)
     
-        const textoPromocaoCell = sheetConf.getCell(1, 1)
+        const textoPromocaoCell = sheetConf.getCell(2, 1)
 
         res.end(JSON.stringify({
             showCoupon: mostraPromocaoCell.value === 'VERDADEIRO',
